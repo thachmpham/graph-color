@@ -1,22 +1,17 @@
 # Toán Cho Trí Tuệ Nhân Tạo
 
 ## Lab 3 - Giải Bài Toán Tô Màu Bằng Phương Pháp Phân Hoạch Đồ Thị
-### Thành viên thực hiện
-- Phạm Minh Thạch - 22C15018  
-- Nguyễn Thị Hoàng Trang - 22C15045  
 
-### BÀI TOÁN TÔ MÀU
-
-#### Mô tả
+### Mô tả
 Bài toán mà ta giải quyết tương tự như bài toán bé tập tô màu, ta nhận được một bức ảnh trắng đen. Các nét vẽ sẽ chia bức ảnh thành các khoảng trắng tách biệt nhau. Nhiệm vụ của chúng ta là tô màu vào các khoảng trắng, sao cho mỗi khoảng trắng sẽ được tô bởi chỉ một màu.
 
-#### Input
+### Input
 Input là một bức ảnh trắng đen dạng RGB.
 
-#### Output
+### Output
 Output là một bức ảnh màu dạng RGB. Ảnh được tô màu theo quy tắc như phần mô tả.
 
-#### Phương pháp thực hiện
+### Phương pháp thực hiện
 *Chuyển ảnh từ dạng RGB về dạng grayscale*  
 Ảnh ban đầu có dạng RGB, mỗi điểm ảnh sẽ có 3 giá trị gồm Red, Green và Blue. Để thuận tiện cho việc tính toán, ta sẽ chuyển ảnh về dạng grayscale, mỗi điểm ảnh chỉ có một giá trị là gray.
 
@@ -35,11 +30,15 @@ Giả sử, sau bước gán nhãn, ta có được số nhãn cần gán là K.
 *Chuyển đổi ma trận về dạng RGB*  
 Sau khi đã hoàn thành việc điền các giá trị màu sắc cho các ô trên ma trận, ta chuyển đổi ma trận sang dạng ảnh RGB.
 
-#### Một số kết quả của chương trình
+### Một số kết quả của chương trình
 
 Bên dưới là một kết quả của chương trình, ảnh trắng đen bên phải là input, output là ảnh màu bên trái.
 
 ![ ](output/fish.png)
 
-#### Một số vấn đề gặp phải trong quá trình thực hiện
+### Một số vấn đề gặp phải trong quá trình thực hiện
 Nếu ta sử dụng Depth First Search để cài đặt thao tác gán nhãn, thì khi chạy trên những ảnh có kích thước lớn ta sẽ phải lỗi maximum recursion depth exceeded vì chương trình gọi đệ quy quá nhiều lần. Để giải quyết vấn đề này, nhóm đã chuyển sang cài đặt thao tác gán nhãn bằng thuật toán Breadth First Search.
+
+## Thành viên thực hiện
+- Phạm Minh Thạch - 22C15018  
+- Nguyễn Thị Hoàng Trang - 22C15045  

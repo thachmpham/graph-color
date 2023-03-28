@@ -1,7 +1,7 @@
 # Toán Cho Trí Tuệ Nhân Tạo
 
 ## Lab 3 - Giải Bài Toán Tô Màu Bằng Phương Pháp Phân Hoạch Đồ Thị
-### Thành viên thực hiện:
+### Thành viên thực hiện
 - Phạm Minh Thạch - 22C15018  
 - Nguyễn Thị Hoàng Trang - 22C15045  
 
@@ -43,6 +43,3 @@ Bên dưới là một kết quả của chương trình, ảnh trắng đen bê
 
 #### Một số vấn đề gặp phải trong quá trình thực hiện
 Nếu ta sử dụng Depth First Search để cài đặt thao tác gán nhãn, thì khi chạy trên những ảnh có kích thước lớn ta sẽ phải lỗi maximum recursion depth exceeded vì chương trình gọi đệ quy quá nhiều lần. Để giải quyết vấn đề này, nhóm đã chuyển sang cài đặt thao tác gán nhãn bằng thuật toán Breadth First Search.
-
-#### Đường link báo cáo
-https://docs.google.com/document/d/1Hiu_7tNbLtfPrVr9REaJWWVPt2jAXz23oRfh0OA1HCg/edit?usp=sharing

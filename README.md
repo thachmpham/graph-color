@@ -1,7 +1,7 @@
 # Toán Cho Trí Tuệ Nhân Tạo
 
 ## Lab 3 - Giải Bài Toán Tô Màu Bằng Phương Pháp Phân Hoạch Đồ Thị
-Thành viên thực hiện:
+### Thành viên thực hiện:
 - Phạm Minh Thạch - 22C15018  
 - Nguyễn Thị Hoàng Trang - 22C15045  
 

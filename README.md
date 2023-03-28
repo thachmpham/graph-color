@@ -1,6 +1,6 @@
 # Toán Cho Trí Tuệ Nhân Tạo
 
-## Lab 3 - Giải Bài Toán Tô Màu Bằng Phương Pháp Phân Hoạch Đồ Thị
+## Giải Bài Toán Tô Màu Bằng Phương Pháp Phân Hoạch Đồ Thị
 
 ### Mô tả
 Bài toán mà ta giải quyết tương tự như bài toán bé tập tô màu, ta nhận được một bức ảnh trắng đen. Các nét vẽ sẽ chia bức ảnh thành các khoảng trắng tách biệt nhau. Nhiệm vụ của chúng ta là tô màu vào các khoảng trắng, sao cho mỗi khoảng trắng sẽ được tô bởi chỉ một màu.
